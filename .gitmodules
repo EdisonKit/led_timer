@@ -1,3 +1,6 @@
 [submodule "Arduino-IRremote"]
 	path = ThirdParty/Arduino-IRremote
 	url = https://github.com/HuiGrowingDiary/Arduino-IRremote.git 
+[submodule "ThirdParty/Arduino-IRremote"]
+	path = ThirdParty/Arduino-IRremote
+	url = https://github.com/HuiGrowingDiary/Arduino-IRremote.git
