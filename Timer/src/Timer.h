@@ -28,6 +28,18 @@ public:
     void run();
 
 
+    void setPause();
+
+
+    void setStop();
+
+
+    void setStart();
+
+
+    void setReset();
+
+
 private:
     bool initOnePin(std::shared_ptr<mraa::Gpio> &pin, uint32_t pinNum);
 
@@ -45,6 +57,7 @@ private:
 
 
 private:
+    bool                            m_isPause;
     uint64_t                        m_now;
     uint32_t                        m_preDelta;
     std::shared_ptr<mraa::Gpio>     m_test;
